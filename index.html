@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raksha Bandhan Puzzle Extravaganza!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Raksha Bandhan Puzzle! 🎉</h1>
+        <p>Solve maat kariyo varna mera kharcha badhega 🌟</p>
+
+        <!-- Puzzle 1: The Rakhi Riddle -->
+        <div id="riddle" class="puzzle">
+            <h2>Puzzle 1: The Yaaddash Riddle</h2>
+            <p>Whats the place Where ve both got lost and tu ro rahi thi (ha ha ha ha)</p>
+            <input type="text" id="riddleAnswer" placeholder="Your answer">
+            <button onclick="checkRiddle()">Submit</button>
+        </div>
+
+        <!-- Puzzle 2: Sweets for the Sweet -->
+        <div id="mathPuzzle" class="puzzle" style="display: none;">
+            <h2>Puzzle 2: Fail maat ho jaiyo</h2>
+            <p>If 2 laddus and 3 barfis cost 50 rupees, and 3 laddus and 2 barfis cost 60 rupees, how much for one laddu and one barfi?</p>
+            <input type="number" id="mathAnswer" placeholder="Your answer">
+            <button onclick="checkMath()">Submit</button>
+        </div>
+
+        <!-- Puzzle 3: Rakhi Word Scramble -->
+        <div id="scramblePuzzle" class="puzzle" style="display: none;">
+            <h2>Puzzle 3: Rakhi Word Scramble</h2>
+            <p>Unscramble the letters to find something you give on Raksha Bandhan: “Galls in via”</p>
+            <input type="text" id="scrambleAnswer" placeholder="Your answer">
+            <button onclick="checkScramble()">Submit</button>
+        </div>
+
+        <!-- Puzzle 4: Bhaiya's Favorite Sweet -->
+        <div id="sweetPuzzle" class="puzzle" style="display: none;">
+            <h2>Puzzle 4: Bhaiya's Favorite Sweet</h2>
+            <p>What's Bhaiya's favorite sweet? (Hint:  Bhai issme to hint nahi milega)</p>
+            <input type="text" id="sweetAnswer" placeholder="Your answer">
+            <button onclick="checkSweet()">Submit</button>
+        </div>
+
+        <!-- Puzzle 5: Sister's Nickname -->
+        <div id="nicknamePuzzle" class="puzzle" style="display: none;">
+            <h2>Puzzle 5: Sister's Nickname (real name)</h2>
+            <p>What's the cute nickname Bhaiya calls you</p>
+            <input type="text" id="nicknameAnswer" placeholder="Your answer">
+            <button onclick="checkNickname()">Submit</button>
+        </div>
+
+        <!-- Puzzle 6: The Hidden Message -->
+        <div id="messagePuzzle" class="puzzle" style="display: none;">
+            <h2>Puzzle 6: The Hidden Message</h2>
+            <p>Decode this message: "tam pack dam chin!" (Hint: bhim ki shakti dhoom machaye)</p>
+            <input type="text" id="messageAnswer" placeholder="Your answer">
+            <button onclick="checkMessage()">Submit</button>
+        </div>
+
+        <!-- Puzzle 7: Rakhi Quiz -->
+        <div id="quizPuzzle" class="puzzle" style="display: none;">
+            <h2>Puzzle 7: Rakhi Quiz</h2>
+            <p>What color was the Rakhi you tied last year? 🌈</p>
+            <input type="text" id="quizAnswer" placeholder="Your answer">
+            <button onclick="checkQuiz()">Submit</button>
+        </div>
+
+        <!-- Puzzle 8: The Final Word -->
+        <div id="finalPuzzle" class="puzzle" style="display: none;">
+            <h2>Puzzle 8: Abb to ruk Ja</h2>
+            <p>Complete the sentence: "Abhishek Bhaiya is ___ and ___."</p>
+            <input type="text" id="finalAnswer" placeholder="Your answer">
+            <button onclick="checkFinal()">Submit</button>
+        </div>
+
+        <div id="result"> Its in the place where I hide it in the last gift quiz (The best Place)</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
